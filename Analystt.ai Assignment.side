@@ -1,0 +1,179 @@
+{
+  "id": "f9711542-2ad0-4098-b1bd-b08489fd0a3c",
+  "version": "2.0",
+  "name": "Analystt.ai Assignment",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "54ce4276-3dd2-4adf-a270-73fa0ed8deae",
+    "name": "GoogleSearchTest",
+    "commands": [{
+      "id": "27e222f9-96e1-4b83-bcdb-2635f7d9b944",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f47bfa5f-7e41-4423-8d21-7e80cea2324a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "770x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4904c0e6-2665-45bc-88c6-5c02b73ecc6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Selenium IDE"
+    }, {
+      "id": "1b4c76dc-27e0-4006-a8ab-35647c74b4e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > div:nth-child(1)",
+      "targets": [
+        ["css=form > div:nth-child(1)", "css:finder"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da95d791-519e-4859-986c-70f92037468a",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a4b00bc-2b08-4283-9775-040153abee53",
+    "name": "GmailButton",
+    "commands": [{
+      "id": "5d6f299f-5fbd-40f3-ae36-6a9da8d480fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca9e2c22-8f02-47a5-b8de-ca19f155f15d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "773x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51051866-70d5-46c3-b4e0-cf7aa1590d3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gmail",
+      "targets": [
+        ["linkText=Gmail", "linkText"],
+        ["css=.gb_C:nth-child(1) > .gb_B", "css:finder"],
+        ["xpath=//a[contains(text(),'Gmail')]", "xpath:link"],
+        ["xpath=//div[@id='gb']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.google.com/mail/?authuser=0&ogbl')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gmail')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b851f417-effb-4d31-8dcb-177c8b4627f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#gbwa .gb_d",
+      "targets": [
+        ["css=#gbwa .gb_d", "css:finder"],
+        ["xpath=//div[@id='gbwa']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.co.in/intl/en/about/products?tab=mh')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cfe7f69-0a36-4a01-a395-2a880a4bc232",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#gbwa .gb_d",
+      "targets": [
+        ["css=#gbwa .gb_d", "css:finder"],
+        ["xpath=//div[@id='gbwa']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.co.in/intl/en/about/products?tab=mh')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d84c04-81e4-427f-a251-8ada2f92a445",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gb_Aa",
+      "targets": [
+        ["css=.gb_Aa", "css:finder"],
+        ["xpath=//header[@id='gb']/div[2]/div[3]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com/mail&service=mail&ec=GBRAFw')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46da2e18-1d63-46b6-8da8-e2be27d6a217",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gb_Aa",
+      "targets": [
+        ["css=.gb_Aa", "css:finder"],
+        ["xpath=//header[@id='gb']/div[2]/div[3]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com/mail&service=mail&ec=GBRAFw')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "57e8aed5-facb-44c5-8f42-7129fce95a7d",
+    "name": "ImFeelingLuckyButton",
+    "commands": [{
+      "id": "6fb47015-0529-450a-bec0-3183e58e759b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69a5ff16-b2fc-42f8-86a9-52704bc4db6e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "773x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22ab5e8f-c843-4303-a29b-7b98dae83674",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .RNmpXc",
+      "targets": [
+        ["css=center:nth-child(1) > .RNmpXc", "css:finder"],
+        ["xpath=(//input[@name='btnI'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/center/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1dabf17c-262e-40f7-8ce8-093775fdb0a9",
+    "name": "Google Landing Page",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a4b00bc-2b08-4283-9775-040153abee53", "57e8aed5-facb-44c5-8f42-7129fce95a7d", "54ce4276-3dd2-4adf-a270-73fa0ed8deae"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
